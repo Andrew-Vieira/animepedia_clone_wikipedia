@@ -19,7 +19,7 @@
     <h2>Animepédia</h2>
   </header><!--header-->
   <div class="bar">
-
+    <button class="hamburger" id="hamburger">☰</button>
   </div><!--bar-->
   <div class="wrapper">
     <nav id="side-left">
@@ -35,7 +35,13 @@
         </figure>
       </aside><!--side1-->
     </nav><!--side-left-->
-
+    <nav id="nav-hamburger" class="nav-hamburger">
+      <h2>Animes</h2>
+      <a href="index.html">Kimetsu no Yaiba</a>
+      <a href="jujutsu.html">Jujutsu Kaisen</a>
+      <a href="shingeki.html">Shingeki no Kyojin</a>
+      <a href="naruto.html">Naruto</a>
+    </nav><!--nav-hamburger-->
     <nav id="side-right">
       <aside class="side2">
         <h2>Neste Artigo</h2>
@@ -47,6 +53,10 @@
     </nav><!--nav-->
     <main>
       <section>
+        <figure class="img-mobile">
+          <img src="assets/images/SnK_Volume1.png" alt="Capa do volume 1 do manga de Shingeki no Kyojin">
+          <figcaption>Manga Volume 1</figcaption>
+        </figure><!--img-mobile-->
         <h1>Shingeki no Kyojin</h1>
         <hr>
         <p>
@@ -166,6 +176,14 @@
     <p>© 2025 Animepédia. Todos os direitos reservados Andrew Vieira.</p>
     <p>Este projeto é apenas para fins educacionais e não possui fins comerciais.</p>
   </footer><!--footer-->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('nav-hamburger');
+
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
 </body>
 
 </html>
