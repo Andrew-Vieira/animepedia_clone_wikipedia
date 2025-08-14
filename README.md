@@ -14,17 +14,17 @@ Projeto desenvolvido durante o Bootcamp Santander Front-end, com o objetivo de c
 
 ## 🌐 Deploy Online
 
-Acesse: [Animepedia]( #)
+Acesse: [Animepedia](https://andrew-vieira.github.io/animepedia_clone_wikipedia/)
 
 ## 🛠️ Como Rodar Localmente
 
 1. Clone o repositório:
 ```bash
-git clone #
+git clone #https://github.com/Andrew-Vieira/animepedia_clone_wikipedia
 ```
 2. Acesse a pasta:
 ```bash
-cd #
+cd # animepedia_clone_wikipedia
 ```
 3. Abra o `index.html` no navegador.
 
